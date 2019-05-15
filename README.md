@@ -144,8 +144,6 @@ optional arguments:
                         '.rar'等类型的压缩文件
   -s STAGECODE, --stage_code STAGECODE
                         项目分期编号
-  -r {Q,M,R}, --report_type {Q,M,R}
-                        结题报告类型,例如:QC报告、mapping报告、结题报告
   -l file, --sample_list file
                         样本列表，每行一个样本诺和编号
   -d num, --total_data num
