@@ -157,9 +157,9 @@ optional arguments:
                         ovogene.com;liuchen@novogene.com".默认为空
 
 Example:
-    Lims_report_uploader.py R -i P101SC18072239-01-B1-3.zip -s P101SC18072239-01-F002 -r Q -l samplelist.txt -d 2 --SOP SOPMC00039,SOPMC00040 -m "正常" -e "lidanqing@novogene.com;liuchen@novogene.com"
+    Lims_report_uploader.py R -i P101SC18072239-01-B1-3.zip -s P101SC18072239-01-F002 -l samplelist.txt -d 2 --SOP SOPMC00039,SOPMC00040 -m "正常" -e "lidanqing@novogene.com;liuchen@novogene.com"
 
-    Lims_report_uploader.py R --input P101SC18072239-01-B1-3.zip --stage_code P101SC18072239-01-F002 --report_type Q --sample_list samplelist.txt --total_data 2 --SOP SOPMC00039,SOPMC00040 --remark "正常" --email "lidanqing@novogene.com;liuchen@novogene.com"
+    Lims_report_uploader.py R --input P101SC18072239-01-B1-3.zip --stage_code P101SC18072239-01-F002  --sample_list samplelist.txt --total_data 2 --SOP SOPMC00039,SOPMC00040 --remark "正常" --email "lidanqing@novogene.com;liuchen@novogene.com"
 
 ```
 
